@@ -1,0 +1,260 @@
+
+body{
+    background-image: url(images/backgroundimage.jpg);
+}
+.logo{
+    width: 160px;
+    
+}
+.nav-bar>ul>li>a{
+    text-decoration: none;
+}
+.nav-bar>ul>li{
+    list-style: none;
+    
+}
+.nav-bar{
+    display: flex;
+    color: white;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+    font: 30px;
+}
+li{
+    display: inline;
+    text-transform: uppercase;
+}
+a{
+    color: #ffffff;
+    justify-content: space-between;
+    font-size: 15px;
+}
+button{
+    border-radius: 25px;
+    border: none;
+    background-color: #e41919;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+      
+}
+.welcome{
+    font-size: 100px;
+    font-weight: lighter;
+    text-align: center;
+    color: #f0f0f0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+.welcomelogo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.res{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: large;
+    font-weight: normal;
+}
+.brand{
+   
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.midtext{
+    color: #ffffff;
+    text-align: center;
+}
+.midsize{
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    opacity: 0.9;
+}
+.midsize2{
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    opacity: 0.9;
+}
+.midsize3{
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    opacity: 0.9;
+
+}
+.midimage{
+    display: flex;
+    display: block;
+   
+    text-align: center;
+}
+/* location etc mid of page */
+.skyline{
+    background-image: url(images/grey.jpg);
+    padding: 25px;
+    border-top: 2px solid #ff0000;
+    
+     border-bottom: 2px solid rgb(245, 226, 226);
+}
+.imgskyline{
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+.welcomelogo2
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 10px;
+}
+.rf{
+    color: #e41919;
+    font-weight: normal;
+    font-size: 42px;
+    text-align: center;
+}
+.location{
+    display: flex;
+    justify-content: space-around;
+}
+.loc{
+    border: 2px solid #f3f2f2;
+    padding: 10px;
+    border-radius: 50px 20px;
+  }
+  .layer3{
+    background-image: url(images/grey.jpg);
+    padding: 25px;
+    border-bottom: 2px solid #ff0000;
+    
+  }
+  hr{
+      width: 15%;
+  }
+  .os{
+      color: #f0f0f0;
+      text-align: center;
+      font-size: 20px;
+  }
+  .newop{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .newloc{
+      background-color: white;
+      border: 3px solid rgb(194, 28, 28);
+      padding: 70px;
+      border-radius: 50px 20px;
+      
+  }
+  .exp{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .newloc1{
+      background-color: white;
+      border: 3px solid rgb(194, 28, 28);
+      padding: 70px;
+      border-radius: 50px 20px;
+      
+  }
+  /* footer */
+  .footer{
+    
+        background-image: url(images/grey.jpg);
+        padding: 25px;
+        display: flex;
+        color: #f0f0f0;
+        justify-content: space-between;
+        }
+        .flayer{
+            width: 20%;
+        }
+    .slayer{
+        width: 20%;
+        
+    }
+    .tlayer{
+        width: 20%;
+    }
+    .folayer{
+        width: 20%;
+    }
+    .flinks>li>a{
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 12px;
+        cursor: pointer;
+        
+    }
+    .sbor{
+        border-bottom: 2px solid red;
+        
+    }
+    .tbor{
+        border-bottom: 2px solid red;
+        
+    }
+    .fobor{
+        border-bottom: 2px solid red;
+        
+    }
+    
+    .tlh{
+        position: relative;
+        bottom: 20px;
+    }
+    .tlf{
+        cursor: pointer;
+        position: relative;
+        bottom: 2px;
+    }
+    .fa-solid{
+        color: #e41919;
+    }
+    .fa-brands{
+        color: #e41919;
+        width: 40px;
+        cursor: pointer;
+    }
+    .tlf1:hover{
+        color: #e41919;
+    }
+   .footerend{
+       border-top: 1px solid white;
+       text-align: center;
+       background-image: url(images/grey.jpg);
+       padding: 10px;
+   }
+   .footerend>a{
+       font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+   }
+   .footerboarder{
+    border-right: 1px solid #f0f0f0;
+    text-align: center;
+    padding: 10px;
+   }
+   .footerboarder:hover{
+    color: #e41919;
+   }
+   .footerb:hover{
+    color: #e41919;
+   }
